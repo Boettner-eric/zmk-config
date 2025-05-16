@@ -3,13 +3,13 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: Boettner-eric
-      url-base: https://github.com/Boettner-eric/zmk-multi-module
+      url-base: https://github.com/Boettner-eric
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: multi
+    - name: zmk-multi-module
       remote: Boettner-eric
       revision: main
   self:
