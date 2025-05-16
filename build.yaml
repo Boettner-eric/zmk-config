@@ -20,4 +20,8 @@
 ---
 include:
   - board: nrf52840_m2
-    shield: multi
+    shield: multi_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nrf52840_m2
+    shield: multi_right
