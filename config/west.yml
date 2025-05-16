@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: boettner-eric
-      url-base: https://github.com/boettner-eric/zmk-multi-module
+    - name: Boettner-eric
+      url-base: https://github.com/Boettner-eric/zmk-multi-module
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: multi
-      remote: boettner-eric
+      remote: Boettner-eric
       revision: main
   self:
     path: config
